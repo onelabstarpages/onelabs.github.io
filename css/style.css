@@ -1,0 +1,114 @@
+/* Index Web Pages CSS3 Style - Pbhcode */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+body  { 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        outline: none;
+}
+html {
+        scroll-behavior: smooth;
+}
+.header {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: #eee;
+        background-image: url(../img/bg-pages.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #fff;
+        font-size: 96px;
+        font-family: 'Fira Mono', monospace;
+        letter-spacing: -7px;
+        cursor: default;
+}
+img.labs {
+        width: 150px;
+        border-radius: 60px;
+        padding: 25px 50;
+        box-shadow: 5px 5px 20px black;
+        transition: 0.3s;
+        cursor: pointer;
+}
+img.labs:active {
+        width: 140px;
+        border-radius: 60px;
+        padding: 25px 50;
+        box-shadow: 0px 2px 20px #444;
+}
+
+.page1 {
+        width: 100%;
+        height: 100%;
+        background: #222;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        cursor: default;
+        overflow: hidden;
+}
+.page1 h1 {
+        color: #bbb;
+        font-size: 45px;
+        font-weight: 100;
+        letter-spacing: 30px;
+        font-family: 'Segoe UI',sans-serif;
+        padding-top: 120px;
+}
+.page em {
+        color: #ffa300;
+        font-style: normal;
+}
+.page1 p {
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-right: 2.3em;
+        margin: 2;
+}
+.search-box {
+        background: #222;
+        margin: 0;
+        color: #999;
+        border: 0px;
+        border-bottom: 1px solid #555;
+        padding: 10px 250;
+        align-items: left;
+        margin-bottom: 2em;
+        margin-right: 1.5em;
+        outline: none;
+        transition: 0.2s;
+        list-style: none;
+        cursor: pointer;
+        color: #555;
+        text-align: center;
+}
+.search-box:hover {
+        color: #ffa300;
+        transition: 0.3s;
+        border-style: double;
+}
+.search-box:focus {
+        color: #ccc;
+        border-style: solid;
+        transition: 0.5s;
+        padding: 10px 150;
+        cursor: text;
+        border-radius: 10px;
+}
+footer h3 {
+        color: #777;
+        font-size: 10.3px;
+        padding-top: 100px;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI',sans-serif;
+        font-weight: 400;
+}
